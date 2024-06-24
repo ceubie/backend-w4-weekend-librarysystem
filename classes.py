@@ -48,9 +48,9 @@ class Author():
     def get_info(self):
         counter = 1
         print("-" *50)
-        print(self.name)
+        print(self._name)
         print()
-        print(self.bio)
+        print(self._bio)
         print()
         print("Here are the authors books:")
         for book in self.books:
@@ -72,8 +72,8 @@ class Book():
 
     def get_info(self):
         print("-" *50)
-        print(self.title)
-        print(self.author)
+        print(self._title)
+        print(self._author)
         print(self._published)
         print(self.available)
         print("-" *50)
@@ -95,8 +95,8 @@ class User():
         counter = 1
         print("-" *50)
         print(self.name)
-        print(self.__id)
-        print(self.__balance)
+        print(self._id)
+        print(self._balance)
         for book in self.borrowed:
             print(counter, " - ", book)
             counter += 1
