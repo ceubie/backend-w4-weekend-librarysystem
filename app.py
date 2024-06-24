@@ -48,7 +48,7 @@ def app():
 
       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
                               
-           What is best practice for printing the following list index?
+           What is best practice for printing the following list item?
                               
 
             l = [vanilla, chocolate, strawberry, coffee, cookie dough]
