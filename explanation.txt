@@ -1,0 +1,40 @@
+
+
+Hello!
+
+In this project, I went a little bit farther than asked. 
+
+My thinking was that by creating additional classes: Library(), and Objects(), that I could create many 
+more possibilities for this management system.
+
+For example, having the Library() object would allow me to, in theory, ask for user, author,
+and book data from any libary - use an AI to format the data into the proper format for my 
+external text files, and within minutes have an entire database and backend system in place for 
+that specific library. I could then iterate through my library dictionary, print all of my genres, 
+and then have an AI give me descriptions for each genre, and format the text for me for my genre.txt file. 
+
+The possibilites for methods based off of the extra classes are immense. As an example, I have created a 
+method in my Objects() class to find who owes money in the library user database.
+
+The Objects() class and the final 3 functions in my functions.py document are really the icing on the cake. 
+These functions allow me to create global variables for every single piece of data in the library mangement system automatically, 
+and insert them into another object. In "programming operations" in the main application page,
+a programmer - after entering a password - is able to view the variable names for all of the library objects 
+so that they can then use their respective class methods. The ground work is laid to create some pretty powerful methods, 
+have some great data integration, and streamline the creation of databases/backend system for a new library.
+
+There were a couple bonus points that I was unable to get to. I plan on working on these in my spare time. In total, 
+I have spent 32 hours on this system Friday-Sunday, and the thought of changing my regex patterns in my import/export functions,
+and the classes to accomodate due dates and fine calculation made me a bit nauseous LOL! There is some other functionality missing,
+I wasn't able fully integrate everything yet.
+
+For now, I am very happy with the results of my work. I look forward to reviewing the code with an instructor and learning more 
+about best practices with the code I implemented. Thank you for taking the time to look at my code, grade it, and give me feedback! 
+
+For your convenience, I have included a python document, "dictionary structures.py," so you can see how I constructed those. 
+The triple nested dictionaries really threw me for a loop until I got it down!
+
+
+Best Regards,
+Cole Eubanks
+
